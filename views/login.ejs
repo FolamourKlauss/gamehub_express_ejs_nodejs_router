@@ -1,0 +1,16 @@
+<%- include('partials/header.ejs') %>
+
+<main>
+  <h3>Identification</h3>
+  <form action="" method="post">
+    <label for="user-name">Nom d'utilisateur</label>
+    <input type="text" name="username" id="user-name" placeholder="ex: root">
+    <label for="password">Mot de passe</label>
+    <input type="password" name="password" id="password" placeholder="ex: admin123">
+    <label for="accept">Accepter les CGV</label>
+    <input type="checkbox" name="accept" id="accept">
+    <button type="submit">Connexion</button>
+  </form>
+</main>
+
+<%- include('partials/footer.ejs') %>
